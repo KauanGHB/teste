@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header of convertion of bases */
+.container{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+.title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+/* main from convertion of bases */
+.main{
+    width: 100%;
+    height: 60%;
+    border: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-options{
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    border: solid 1px #ccc;
+}
+.options{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* .container-options{
+    border-right: solid 1px #ccc;
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.options{
+    width: 100%;
+    padding: 3px;
+} */
+
+.options>button{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.insert-conteudo{
+    width: 100%;
+    height: 95%;
+    padding: 10px;
+}
+.insert-conteudo>.title-insert{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.insert-conteudo>section>input{
+    margin: 10px 0 10px;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+}
+
+            /* TESTAR MAIS PRA FRENTE */
+/* .insert-conteudo>section>input:focus{
+    color: #823;
+} */
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons>button{
+    width: 100px;
+    padding: 2px;
+    color: #010;
+}
+
+.result{
+    width: 100%;
+    height: 46%;
+    margin-top: 18px;
+}
+.result>p{
+    font-size: 1.1rem;
+}
+
+/* here this the result */
+.calculations{
+    border: solid 1px #000;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    display: none;
+}
+.calculations>h4{
+    border-bottom: 1px #000 solid;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.calculations>#result{
+    width: 100%;
+    height: 60px;
+}
